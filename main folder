@@ -1,0 +1,10 @@
+from turtle import *
+color('black', 'red')
+begin_fill()
+while True:
+    forward(12)
+    left(12)
+    if abs(pos()) < 6:
+        break
+end_fill()
+done()
